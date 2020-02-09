@@ -1,0 +1,40 @@
+html {
+  background-color: black;
+}
+
+.App {
+  background-color: black;
+}
+
+.logo {
+  height: 30px;
+  margin: 35px 0 50px 50px;
+}
+
+.wrapper img {
+  width: 220px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin: 0 0 45px 50px;
+  background-color: black;
+}
+
+.section {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 20px 50px;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
